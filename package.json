@@ -8,6 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "update-ver": "node build-config/replace.build.js && git add . && git commit -m 'versioning' && npm version patch",
     "deploy:ghp": "ng deploy --base-href=https://noririco.github.io/nsn/ --repo=https://github.com/noririco/nsn"
   },
   "private": true,
