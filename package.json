@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "build:ghp": "ng build --prod --base-href https://noririco.github.io/nsn/",
     "deploy:ghp": "ng deploy --repo='https://github.com/noririco/nsn'",
-    "titparnes": "npm run deploy:ghp"
+    "titparnes": "npm run build:ghp && npm run deploy:ghp"
   },
   "private": true,
   "dependencies": {
