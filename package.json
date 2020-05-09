@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:ghp": "ng build --prod --base-href https://noririco.github.io/nsn/",
+    "build:ghp": "ng build --prod --base-href https://noririco.github.io/nsn",
     "deploy:ghp": "ng deploy --repo='https://github.com/noririco/nsn'",
     "titparnes": "npm run build:ghp && npm run deploy:ghp"
   },
